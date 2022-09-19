@@ -26,7 +26,7 @@ export default function Signup() {
                 // ...
             }
         });
-        alert('create an account or login/logout')
+        
     }, [])
 
 
@@ -34,10 +34,10 @@ export default function Signup() {
         e.preventDefault()
 
        
-        let obj = {
-            email: email,
-            password: password,
-        }
+        // let obj = {
+        //     email: email,
+        //     password: password,
+        // }
 
         // try {
         //                 const docRef = addDoc(collection(firestore,"users"),obj);
